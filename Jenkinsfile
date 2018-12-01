@@ -20,5 +20,10 @@ pipeline {
         }
       }
     }
+    stage('deploy_DEV') {
+      steps {
+        sleep 5
+      }
+    }
   }
 }
